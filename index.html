@@ -16,6 +16,8 @@
     <!-- Custom styles for this template -->
     <link href="css/full-slider.css" rel="stylesheet">
 
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
   </head>
 
   <body id="top">
@@ -29,10 +31,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link js-scroll-trigger" href="#top">Да пачатку
-                <span class="sr-only"></span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#top">Да пачатку</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#service">Паслугі</a>
@@ -47,7 +47,7 @@
               <a class="nav-link js-scroll-trigger" href="#price-discount">Кошты і зніжкі</a>
             </li>
 	    <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#placeandhow">Як усё абдываецца</a>
+              <a class="nav-link js-scroll-trigger" href="#placeandhow">Дзе</a>
             </li>
           </ul>
         </div>
@@ -67,7 +67,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h3>Для каго?</h3>
               <p>Прапаную індывідуальныя заняткі для тых, хто адчувае неабходнасць быць больш упэўненым у сваіх ведах, а таксама хоча пачаць карыстацца англійскай мовай у побыце, падарожжах, на працы або акадэмічных даслеваннях.</p>
-	      <a class="btn btn-primary btn-lg" href="#service">Глядзець накірункі</a>
+	      <a class="btn btn-primary btn-lg js-scroll-trigger" href="#service">Глядзець накірункі</a>
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -75,7 +75,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h3>Фрылансерам і праграмістам</h3>
               <p>Мой айці-досвед дазволіць вам развіваць англійкую мову ў лічбавых тэхналогіях, разглядаць тыпавыя практычныя сітуацыі: удакладняць заданні і пытанні, апісваць багі, разлічваць час, рабіць кароткія справаздачы, скайп перамовы.</p>
-		<a href="https://docs.google.com/forms/d/e/1FAIpQLScS3S1XCm7OE3K0VVxGNjTwPGxG3_bc04t1Y1nFdbgV-LSXcQ/viewform" class="btn btn-primary btn-lg">Запаўняй анкету!</a>
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLScS3S1XCm7OE3K0VVxGNjTwPGxG3_bc04t1Y1nFdbgV-LSXcQ/viewform" class="btn btn-primary btn-lg js-scroll-trigger">Запаўняй анкету!</a>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
@@ -83,17 +83,17 @@
             <div class="carousel-caption d-none d-md-block">
               <h3>Зніжкі</h3>
               <p>Матываваныя навучэнцы могуць атрымаць не толькі стандартныя зніжкі, а таксама дадатковыя бонусы па выніках праходжання заняткаў.</p>
-		<a href="#price-discount" class="btn btn-primary btn-lg">Глядзець кошты і зніжкі</a>
+		<a href="#price-discount" class="btn btn-primary btn-lg js-scroll-trigger">Глядзець кошты і зніжкі</a>
             </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span class="sr-only">Папярэдняе</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span class="sr-only">Наступнае</span>
         </a>
       </div>
     </header>
@@ -105,65 +105,70 @@
       <div class="container my-5">
         <h2 class="page-header">Паслугі</h2>
 
-        <div class="row">
+        <div class="row text-center">
+
+
+<div class="col-lg-4 mb-4">
+	  <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
+            </span>
+	   <h4>Размоўная англійская мова</h4>	    
+           <p class="card-text">для працы, падарожжаў, побытавых камунікацый.</p>
+        </div>
+
+
+<div class="col-lg-4 mb-4">
+	  <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
+            </span>
+	   <h4>Дзелавыя зносіны</h4>	    
+           <p class="card-text">перапіска, інтэрв'ю і размовы з працадаўцам, складанне рэзюмэ, афармленне заданняў.</p>
+        </div>
+
+
+<div class="col-lg-4 mb-4">
+	  <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-pencil-square-o fa-stack-1x fa-inverse"></i>
+            </span>
+	   <h4>Напісанне тэкстаў</h4>	    
+           <p class="card-text">лісты, эсэ, дакументы, нефармальная камунікацыя.</p>
+        </div>
+
+
+        </div>
+
+	<div class="row text-center">
 
 	<div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Размоўная англійская мова</h4>
-            <div class="card-body">
-              <p class="card-text">для працы, падарожжаў, побытавых камунікацый.</p>
-            </div>        
-          </div>
+	  <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-bullhorn fa-stack-1x fa-inverse"></i>
+            </span>
+	   <h4>Публічныя выступленні</h4>	    
+           <p class="card-text">прамовы, прэзентацыі ідэі, справаздачы, кароткія выступы, вядзенне дыскусій.</p>
         </div>
 
-	<div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Дзелавыя зносіны</h4>
-            <div class="card-body">
-              <p class="card-text">перапіска, інтэрв'ю і размовы з працадаўцам, складанне рэзюмэ, афармленне заданняў</p>
-            </div>
-          </div>
+<div class="col-lg-4 mb-4">
+	  <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+	   <h4>Для праграмістаў</h4>	    
+           <p class="card-text">для праектнага мэнэджмэнта, праграмістаў, дызайнераў.</p>
         </div>
 
-	<div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Напісанне тэкстаў</h4>
-            <div class="card-body">
-              <p class="card-text">лісты, эсэ, дакументы, нефармальная камунікацыя.</p>
-            </div>        
-          </div>
+<div class="col-lg-4 mb-4">
+	  <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+            </span>
+	   <h4>Для студэнтаў</h4>	    
+           <p class="card-text">навуковыя эсэ, іх структура, афармленне даследванняў, праца з крыніцамі, падсумаванне, перафразіроўка, анатацыі.</p>
         </div>
 
-        </div>
-
-	<div class="row">
-
-	<div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Публічныя выступленні</h4>
-            <div class="card-body">
-              <p class="card-text">прэзентацыі ідэі, справаздачы, кароткія выступы, вядзенне дыскусій.</p>
-            </div>        
-          </div>
-        </div>
-
-	<div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Для праграмістаў</h4>
-            <div class="card-body">
-              <p class="card-text">для праектнага мэнэджмэнта, праграмістаў, дызайнераў</p>
-            </div>        
-          </div>
-        </div>
-
-	<div class="col-lg-4 mb-4">
-          <div class="card h-100">
-            <h4 class="card-header">Для студэнтаў</h4>
-            <div class="card-body">
-              <p class="card-text">навуковыя эсэ, іх структура, афармленне даследванняў, праца з крыніцамі, падсумаванне, перафразіроўка, анатацыі.</p>
-            </div>        
-          </div>
-        </div>
 
 	</div>
 
@@ -176,7 +181,7 @@
 
 	<div class="row mb-4">
 
-	<div class="col-lg-6">
+	<div class="col-lg-6 my-3">
           <p>ў тым ліку могуць уключаць:</p>
           <ul>
             <li>Вусныя камунікацыі на свабодныя або абазначаныя тэмы.</li>
@@ -199,8 +204,8 @@
         <div class="col-lg-6">
           <img class="img-fluid rounded" src="images/read-more-words-2.jpg" alt="">
         </div>
-	<div class="col-lg-6">
-          <h2>Варта ведаць </h2>
+	<div class="col-lg-6 my-3">
+          <h2>Варта ведаць</h2>
           <ul>
 	    <li>Адзін занятак мае працягласць ад 60 да 90 хвілін.</li>
             <li>Працоўная мова заняткаў: англійская. Але магчыма ў складаных сітуацыях тлумачэнні на беларускай або рускай.</li>
@@ -218,15 +223,16 @@
 
       <div class="container" id="aboutme">
         <h2 class="page-header">Пра сябе</h2>
-	<p>Прывітанне, маё імя Міхаіл Волчак.</p>
+	<p>Прывітанне, <br />
+Маё імя Міхаіл Волчак.</p>
 	<p>Доўгі час англійская мова для мяне была вялікім выклікам. Зараз я магу сказаць, што змог яго пераадоліць шматлікія выпрабаванні. Але не цалкам. Як мне казала мая настаўніца англійскай мовы: "Гэта твой праект даўжынёй у жыццё. Таму ніколі яго не кідай".</p>
 	<p>Такім чынам, я працягваю развіццё сваіх моўных навыкаў і прапаную заняткі, на якіх буду дзяліцца сваім досведам і ведамі.</p>
         
-        <div class="row">
+        <div class="row my-5">
 
-	<div class="col-lg-4 col-sm-6 portfolio-item">
+	<div class="col-lg-4 mb-4 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/work-with-client.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="images/work-with-client.jpg" alt="IT-веды і практыка працы з кліентамі"></a>
             <div class="card-body">
               <h4 class="card-title">
                 IT-веды і практыка працы з кліентамі
@@ -236,9 +242,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="col-lg-4 mb-4 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/university-of-essex.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="images/university-of-essex.jpg" alt="Акадэмічная адукацыя"></a>
             <div class="card-body">
               <h4 class="card-title">
                 Акадэмічная адукацыя
@@ -248,9 +254,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="col-lg-4 mb-4 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/public-presentation.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="images/public-presentation.jpg" alt="Публічныя выступы і вядзенне праектаў"></a>
             <div class="card-body">
               <h4 class="card-title">
                 Публічныя выступы і вядзенне праектаў
@@ -273,13 +279,13 @@
         <h2 class="page-header">Кошты. Абярыце свой план</h2>
 	<p>Першы ўводны занятак бясплатны. Падчас гэтага занятка мы зможам абмеркаваць фармат заняткаў і іх план.</p>	
 
-	<div class="row">
+	<div class="row my-5">
 
 	<div class="col-lg-4 mb-4">
           <div class="card h-100">
             <h3 class="card-header">Дзённы</h3>
             <div class="card-body">
-              <div class="display-4">20 руб.</div>
+              <div class="display-4">20 рублёў</div>
               <div class="font-italic">за гадзіну *</div>
             </div>
             <ul class="list-group list-group-flush">
@@ -365,7 +371,7 @@
     <div class="container mb-5">
       <!-- Jumbotron Header -->
       <header class="jumbotron my-1">
-        <h2>Для разгляду вашага запыту запаўняейце анкету!</h2>
+        <h2>Для разгляду вашага запыту запаўняйце анкету!</h2>
         <p class="lead">Пасля азнаямлення з вынікамі анкеты, я звяжуся з вамі, каб адказаць на ўзнікшыя пытанні і прапанаваць час і месца першай сустрэчы. Калі засталіся пытанні, калі ласка напішыце на нумар +375 29 1274267 смс, пасля перателефаную вам.</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScS3S1XCm7OE3K0VVxGNjTwPGxG3_bc04t1Y1nFdbgV-LSXcQ/viewform" class="btn btn-primary btn-lg">Запішыся на заняткі!</a>
       </header>
@@ -380,7 +386,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Міхаіл Волчак, 2017</p>
+        <p class="m-0 text-center text-white">Рэпетытар англійскай мовы, Міхаіл Волчак, 2017</p>
       </div>
       <!-- /.container -->
     </footer>

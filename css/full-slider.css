@@ -20,3 +20,36 @@
   border-bottom: 1px solid #eee;
   font-size: 36px;
 }
+
+.carousel-caption {
+  background-color:rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 26px;
+}
+.carousel-caption p {
+  font-size: 16px;
+}
+
+.text-primary, .navbar-brand {
+  color: #fed136 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #fec503;
+  border-color: #fec503;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #f6bf01;
+  border-color: #f6bf01;
+}
+.bg-primary {
+  background-color: #fec503 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #f6bf01;
+}
