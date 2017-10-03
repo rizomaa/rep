@@ -53,3 +53,8 @@
 .navbar-dark .navbar-nav .nav-link.active {
   color: #f6bf01;
 }
+
+.lang,
+.lang a {
+  color: #fff;
+}
