@@ -162,3 +162,7 @@
     border: none;
     background: #888
 }
+
+.btn-link {
+  cursor: pointer;
+}
