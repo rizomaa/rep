@@ -177,3 +177,111 @@
 .height-100 {
   flex: 1;
 }
+
+.navbar-brand-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.navbar-logo {
+  display: block;
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+}
+
+.navbar-brand-text {
+  line-height: 1.15;
+}
+
+.lang {
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+/* Tablets and smaller screens */
+@media (max-width: 1199.98px) {
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-brand-text {
+    font-size: 17px;
+  }
+}
+
+/* Phones */
+@media (max-width: 575.98px) {
+  .navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .navbar-brand-logo {
+    gap: 7px;
+    margin-right: 5px;
+  }
+
+  .navbar-logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  .navbar-brand-text {
+    display: none;
+  }
+
+  .lang {
+    margin-right: auto;
+    font-size: 13px;
+  }
+}
+
+
+.footer-logo-link {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.footer-logo {
+  display: block;
+  width: 82px;
+  height: 82px;
+  opacity: 0.9;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.footer-logo-link:hover .footer-logo {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+.footer-signature {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer-location {
+  color: #fed136;
+}
+
+@media (max-width: 575.98px) {
+  .footer-logo {
+    width: 68px;
+    height: 68px;
+  }
+
+  .footer-signature {
+    font-size: 14px;
+  }
+
+  .footer-location {
+    display: block;
+  }
+}
