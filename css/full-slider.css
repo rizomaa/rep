@@ -285,3 +285,57 @@
     display: block;
   }
 }
+
+
+
+/* ANGIELSKI DLA FIRM — styles added for angielski-dla-firm.html */
+.business-header {
+  min-height: 520px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+}
+
+.business-header-text {
+  max-width: 760px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.business-header h1 {
+  font-size: 44px;
+}
+
+.business-header p {
+  font-size: 21px;
+}
+
+.business-content {
+  max-width: 900px;
+}
+
+.business-content section {
+  margin: 70px 0;
+}
+
+.business-content li {
+  margin-bottom: 9px;
+}
+
+@media (max-width: 575.98px) {
+  .business-header {
+    min-height: 500px;
+  }
+
+  .business-header-text {
+    padding: 22px;
+  }
+
+  .business-header h1 {
+    font-size: 32px;
+  }
+}
+                            
